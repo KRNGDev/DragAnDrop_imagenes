@@ -8,19 +8,20 @@
 
     <link rel="stylesheet" type="text/css" href="estilos.css" />
     <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
-    
-    
+
+
 
 </head>
 <header>
-    
-    
 
-        <h1 align="center">Carga tu imagen</h1>
 
-    </header>
+
+    <h1 align="center">Carga tu imagen</h1>
+
+</header>
+
 <body>
-    
+
     <div class="container">
 
         <h1 align="center">Hola gente que tal</h1>
@@ -33,18 +34,17 @@
             <button type="submit" class="btn btn-info" id="submit-all">Cargar</button>
         </div>
 
-        <div id="preview"></div>
+
 
     </div>
+    <div id="preview"></div>
 
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
     <script src="app.js"></script>
-    
-   
+
+
 
 </body>
 
 </html>
-
