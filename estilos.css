@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    background-color: rgb(231, 230, 229);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.btn.btn-info {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    border: none;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(109, 108, 108, 0.5);
+
+}
+.eliminar_image{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    border: none;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(109, 108, 108, 0.5);
+}
+.eliminar_image:hover {
+    background-color: darkred;
+}
+
+#dropzoneFrom {
+    border: 2px dashed black;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgba(109, 108, 108, 0.5);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#preview{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(109, 108, 108, 0.5);
+    padding: 20px;
+}
+.archivoImagen{
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(109, 108, 108, 0.5);
+    transition: opacity 10s;
+}
+.texto{
+     
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition: left 1s;
+    display: none;
+}
+.archivoImagen:hover .texto {
+    display: block; 
+    display: flex;
+    
+}
+
+@media screen and (max-width: 500px) {
+    #dropzoneFrom {
+        width: 70vw;
+
+    }
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .btn.btn-info {
+        padding: 8px 16px;
+    }
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+.boton {
+
+    text-align: center;
+}
+
+header {
+    background-color: red;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(78, 78, 78, 0.5);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
